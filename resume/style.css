@@ -43,17 +43,17 @@ strong {
     min-width: 300px;
     }
   /*Job titles bold*/
-#jobtitle {
+.jobtitle {
       font-weight: 600;
       font-size: 1.5em;
       }
 /*Organizations*/
-#organization {
+.organization {
     font-weight:400;
     font-size: 1.25em;
   }
 /*Jobs dates italics*/
-#date {
+.date {
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
@@ -63,17 +63,18 @@ strong {
   margin-bottom: 0;
 }
 /*Paragraphs*/
-#description {
+.description {
 margin-top: 10px;
 margin-bottom: 10px;
 margin-left: 0;
 margin-right: 0;
 }
-#menu {
-  margin: 0px;
-  padding: 0px;
+.menu {
+  margin: 0;
+  padding: 0;
   text-align: center;
   display: inline;
+  list-style-type: none;
 }
 /*List elements*/
 li {
