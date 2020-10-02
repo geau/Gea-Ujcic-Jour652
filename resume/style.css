@@ -62,6 +62,19 @@ strong {
   margin-right: 0;
   margin-bottom: 0;
 }
+/*Paragraphs*/
+#description {
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 0;
+margin-right: 0;
+}
+#menu {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  display: inline;
+}
 /*List elements*/
 li {
   font-size: 1em;
