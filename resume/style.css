@@ -43,20 +43,24 @@ strong {
     min-width: 300px;
     }
   /*Job titles bold*/
-h3 {
+#jobtitle {
       font-weight: 600;
       font-size: 1.5em;
       }
 /*Organizations*/
-h4 {
+#organization {
     font-weight:400;
-    font-size: 1em;
+    font-size: 1.25em;
   }
 /*Jobs dates italics*/
-h5 {
+#date {
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
+  margin-top: 2px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 /*List elements*/
 li {
