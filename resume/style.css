@@ -6,12 +6,22 @@ BODY {
   color:#444;
   font-weight:400;
 }
+
+#container {
+  width:100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 /*Banner name top*/
-h1 {
+#name {
   font-size:3em;
   text-transform: uppercase;
   text-align: center;
   color:#33485e;
+  border-bottom: 1px solid  #33485e;
+  width:60%;
+  min-width: 300px;
+  margin: 0 auto;
   }
 /*Job title UPPERCASE*/
 strong {
@@ -20,11 +30,17 @@ strong {
     font-size: 1.5em;
   }
 /*Section titles UPPERCASE*/
-h2 {
+.sectionheader {
     font-size: 1.5em;
     text-transform: uppercase;
     background-color:#33485e;
     color: #fff;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 70%;
+    min-width: 300px;
     }
   /*Job titles bold*/
 h3 {
