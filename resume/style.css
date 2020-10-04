@@ -76,6 +76,10 @@ margin-right: 0;
   display: inline;
   list-style-type: none;
 }
+.inline {
+  display: inline block;
+  list-style-type: none;
+}
 /*List elements*/
 li {
   font-size: 1em;
