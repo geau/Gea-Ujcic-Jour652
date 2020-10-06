@@ -24,10 +24,16 @@ BODY {
   margin: 0 auto;
   }
 /*Job title UPPERCASE*/
-strong {
+#title {
     color:#33485e;
     text-transform: uppercase;
     font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 /*Section titles UPPERCASE*/
 .sectionheader {
@@ -69,6 +75,7 @@ margin-bottom: 10px;
 margin-left: 0;
 margin-right: 0;
 }
+
 .menu {
   margin: 0;
   padding: 0;
@@ -76,11 +83,35 @@ margin-right: 0;
   display: inline;
   list-style-type: none;
 }
+
 .inline {
-  display: inline block;
+  display: inline;
   list-style-type: none;
+  font-size: 1em;
 }
 /*List elements*/
 li {
   font-size: 1em;
+}
+#degrees {
+  margin-top: 5px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+#do {
+  margin-top: 5px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+#top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+  text-align: center;
 }
