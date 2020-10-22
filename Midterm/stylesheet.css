@@ -45,6 +45,15 @@ color:#5D806D;
   text-align: left;
   color: #49B33B;
 }
+.subhead2{
+  font-family: "Georgia", sans-serif;
+  font-size: 14px;
+  font-style: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: left;
+  color: #5D806D;
+}
 
 .descriptive-chatter{
   font-family: Georgia, serif;
