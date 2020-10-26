@@ -5,7 +5,7 @@
 }
 
 .elements {
-  max-width: 60%;
+  max-width: 90%;
     width: 100%;
     height: auto;
 }
@@ -35,16 +35,36 @@ blockquote {
 .hire{
   font-size:27px;
   font-family: 'Assistant', sans-serif;
-  font-style: boldest;
+  font-style: semi-bold;
   margin-top: 5px;
   margin-bottom: 10px;
   margin-left:77px;
   margin-right: 45px;
   color: #707070;
-  padding-top: 35px;
+  padding-top: 7px;
   padding-left: 100px;
   padding-right: 100px;
   border-left: 4px, solid, #ccc
   text-align: center;
 
+}
+.education{
+  font-size:20px;
+  font-family: 'Assistant', sans-serif;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  color: #707070;
+  padding-top: 7px;
+  padding-right: 10px;
+  border-left: 4px, solid, #ccc
+  text-align: left;
+
+}
+.date{
+  text-align: left;
+  color: #707070;
+  font-size: 15px;
+  font-family: 'Assistant', sans-serif;
+  font-style: italic;
 }
