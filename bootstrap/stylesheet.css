@@ -1,0 +1,23 @@
+.responsive {
+  max-width: 100%;
+    width: 70%;
+    height: auto;
+}
+.p{
+text-align: center;
+color: #707070;
+font-size: 18px;
+font-family: 'Assistant', sans-serif;
+
+}
+blockquote {
+  font:16px/24px normal helvetica, sans-serif;
+  font-style: italic;
+  font-style: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left:50px;
+  color: #33806D;
+  padding-left: 15px;
+  border-left: 4px, solid, #ccc
+}
