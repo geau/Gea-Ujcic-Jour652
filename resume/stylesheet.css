@@ -14,20 +14,20 @@ text-align: left;
 color: #707070;
 font-size: 20px;
 font-family: 'Assistant', sans-serif;
-
 }
-blockquote {
+
+.blockquote {
   font-size:20px;
   font-family: 'Assistant', sans-serif;
-  font-style: bold;
-  margin-top: 100px;
+  font-style: italic;
+  margin-top: 10px;
   margin-bottom: 15px;
-  margin-left:200px;
-  margin-right: 200px;
-  color: #707070;
+  margin-left:85px;
+  margin-right: 85px;
+  color: #8792AD;
   padding-top: 35px;
-  padding-left: 220px;
-  padding-right: 220px;
+  padding-left: 75px;
+  padding-right:72px;
   border-left: 4px, solid, #ccc
   text-align: center;
 }
@@ -36,13 +36,13 @@ blockquote {
   font-size:27px;
   font-family: 'Assistant', sans-serif;
   font-style: semi-bold;
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: 10px;
-  margin-left:77px;
+  margin-left:35px;
   margin-right: 45px;
   color: #707070;
-  padding-top: 7px;
-  padding-left: 100px;
+  padding-top: 15px;
+  padding-left: 35px;
   padding-right: 100px;
   border-left: 4px, solid, #ccc
   text-align: center;
@@ -67,4 +67,46 @@ blockquote {
   font-size: 15px;
   font-family: 'Assistant', sans-serif;
   font-style: italic;
+}
+.text{
+  text-align: left;
+  color: #707070;
+  font-size: 15px;
+  font-family: 'Assistant', sans-serif;
+}
+.recognition {
+  text-align: left;
+  color: #707070;
+  font-size: 17px;
+  font-family: 'Assistant', sans-serif;
+  padding-top: 7px;
+  padding-right: 10px;
+  border-left: 4px, solid, #ccc
+}
+.card-text{
+  text-align: left;
+  color: #707070;
+  font-size: 15px;
+  font-family: 'Assistant', sans-serif;
+}
+.fab {
+  color: #C5D4FB;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left:77px;
+  margin-right: 45px;
+  padding-top: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+  size: 5x;
+}
+.fas{
+color: #707070;
+margin-top: 15px;
+margin-bottom: 10px;
+margin-left:11px;
+margin-right: 11px;
+padding-top: 15px;
+padding-left: 11px;
+padding-right: 11px;
 }
