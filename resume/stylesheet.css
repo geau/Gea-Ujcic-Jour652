@@ -109,22 +109,22 @@ font-family: 'Assistant', sans-serif;
 }
 .fab {
   color: #C5D4FB;
-  margin-top:0px;
+  margin-top:15px;
   margin-bottom: 0px;
   margin-left:0px;
   margin-right: 0px;
-  padding-top: 0px;
+  padding-top: 15px;
   padding-left: 0px;
   padding-right: 0px;
   size: 5x;
 }
 .fas{
 color: #707070;
-margin-top: 0px;
+margin-top: 15px;
 margin-bottom: 0px;
 margin-left:0px;
 margin-right: 0px;
-padding-top: 0px;
+padding-top: 15px;
 padding-left: 0px;
 padding-right: 0px;
 }
