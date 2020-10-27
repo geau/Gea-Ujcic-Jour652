@@ -15,19 +15,24 @@ color: #707070;
 font-size: 20px;
 font-family: 'Assistant', sans-serif;
 }
-@media query (min-width: 768px){
-  .blockquote {
-  margin-top: 7px;
-  margin-bottom: 5px;
-  margin-left:25px;
-  margin-right: 25px;
-  padding-top: 35px;
-  padding-left: 15px;
-  padding-right:12px;
+.col-md-3{
+  align:center;
+}
+.col-md-1{
+  align:center;
 }
 
+@media screen and (max-width: 707px){
+ /*Add CSS that only activates on screens less than 480x here*/
+ #pi{display:none;}
+
 }
-.blockquote {
+@media screen and (max-width: 700px){
+ /*Add CSS that only activates on screens less than 480x here*/
+ .fab {display:none;}
+
+}
+#pi{
   font-size:20px;
   font-family: 'Assistant', sans-serif;
   font-style: italic;
@@ -104,24 +109,24 @@ font-family: 'Assistant', sans-serif;
 }
 .fab {
   color: #C5D4FB;
-  margin-top: 25px;
-  margin-bottom: 10px;
-  margin-left:77px;
-  margin-right: 45px;
-  padding-top: 15px;
-  padding-left: 100px;
-  padding-right: 100px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  margin-left:0px;
+  margin-right: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
   size: 5x;
 }
 .fas{
 color: #707070;
-margin-top: 25px;
-margin-bottom: 10px;
-margin-left:11px;
-margin-right: 11px;
-padding-top: 15px;
-padding-left: 11px;
-padding-right: 11px;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left:0px;
+margin-right: 0px;
+padding-top: 0px;
+padding-left: 0px;
+padding-right: 0px;
 }
 
 #footer{
