@@ -1,0 +1,91 @@
+/*hero container area*/
+.hero-container{
+  position:relative;
+}
+
+.hero-image{
+  width: 100%;
+}
+
+.headline{
+  font-size:3.5em;
+  font-weight:300;
+  text-align: left;
+  font-family: Georgia, sans-serif;
+  color: #3B1919;
+}
+
+.byline{
+  font-size:1em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+.chapter-headline{
+  font-size:1.5em;
+  font-weight:200;
+  text-align: left;
+  font-family: georgia, sans-serif;
+  color: #4E0000;
+}
+
+.capital{
+  font-size:4em;
+  font-weight:400;
+  text-align: left;
+  font-family: georgia, sans-serif;
+  color: #BF7A7A;
+  padding: 0 0 0 0;
+}
+
+p {
+  font-family: Georgia, sans-serif;
+  line-height: 180%;
+  font-size:17px;
+  text-align: left;
+}
+
+.photo{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.description{
+  font-family: georgia, serif;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-style: italic;
+  color: #787879;
+}
+
+.row{
+  font-family: Georgia, sans-serif;
+  line-height: 180%;
+  margin-bottom: 3em;
+  padding-bottom: 3em;
+}
+
+.card-title{
+  text-align: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card-body{
+  background-color: #D0E6E6;
+}
+
+/*nav style*/
+.nav-logo{
+  margin: 0 auto;
+  font-weight: 500;
+  color: #590202;
+  text-transform: uppercase;
+}
