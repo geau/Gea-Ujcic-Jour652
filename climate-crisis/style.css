@@ -7,21 +7,38 @@
   width: 100%;
 }
 
+/*headline*/
 .headline{
   font-size:3.5em;
-  font-weight:300;
+  font-weight:500;
   text-align: left;
-  font-family: Georgia, sans-serif;
-  color: #2A1717;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 0;
+  color: #BF0404;
 }
 
+/*byline*/
 .byline{
-  font-size:1em;
+  font-size:14px;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   text-align: left;
-  color: #450000;
+  padding-top: 1px;
+
 }
+
+/*1st graph*/
+.spacial-paragraph{
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: Georgia, sans-serif;
+  font-size:20px;
+
+}
+
+/*chap head*/
 
 .chapter-headline{
   font-size:1.5em;
@@ -37,29 +54,30 @@
 }
 
 .capital{
-  font-size:25px;
-  font-weight:500;
+  font-size:40px;
+  font-weight:700;
   text-align: left;
   font-family: georgia, sans-serif;
   color:#BF0404;
   padding-bottom: 1px;
+  font-style: normal;
 }
 
-
+/* text */
 p {
   font-family: Georgia, sans-serif;
   line-height: 180%;
   font-size:17px;
   text-align: left;
 }
-
+/* photo, not hero image */
 .photo{
   display:block;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
 }
-
+/* photo chatter */
 .description{
   font-family: georgia, serif;
   font-size: 13px;
@@ -70,25 +88,46 @@ p {
   color: #787879;
 }
 
-.row{
-  font-family: Georgia, sans-serif;
-  line-height: 180%;
-  margin-bottom: 3em;
-  padding-bottom: 3em;
+.quote{
+  font-size:40px;
+  font-weight:700;
+  text-align: left;
+  font-family: georgia, sans-serif;
+  color:#BF0404;
+  padding-bottom: 1px;
+  font-style: normal;
 }
 
-.card-title{
+
+.card-header{
+  font-size:18px;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
+  background:#BF0404;
+  color: #fff;
+
 }
 
 .card-text{
     text-align: center;
 }
 
-.card-body{
-  background-color: #D0E6E6;
+li{
+  font-family: Georgia, sans-serif;
+  line-height: 180%;
+  font-size:17px;
+  text-align: left;
 }
 
+.card-body{
+  background-color: #fff;
+  border-left: 1px solid #450000;
+  border-right: 1px solid #450000;
+  border-bottom: 1px solid#450000;
+  padding-bottom: 3em;
+  margin-bottom: 0 auto;
+}
+/* photo chatter */
 .descriptive-chatter{
   font-family: georgia, serif;
   font-size: 14px;
