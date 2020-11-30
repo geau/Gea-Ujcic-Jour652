@@ -156,8 +156,17 @@ li{
 .end{
   font-size: 0.5em;
   font-weight:400;
-  text-align: center;
+  text-align: right;
   color: #BF0404;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
+  width: 100%
+}
+
+.card-intro {
+  font-family: Georgia, sans-serif;
+  line-height: 180%;
+  font-size:17px;
+  text-align: center;
+  width: 75%;
 }
