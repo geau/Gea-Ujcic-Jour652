@@ -17,6 +17,7 @@
   color: #BF0404;
   width: 85%;
 }
+/*small screen headline*/
 @media screen and (max-width: 600px) {
   .headline {
     font-size:35px;
@@ -82,6 +83,8 @@ p {
   text-align: left;
   width: 75%;
 }
+
+
 /* photo, not hero image */
 .photo{
   display:block;
@@ -89,6 +92,7 @@ p {
   margin-right: auto;
   align-items: center;
 }
+
 /* photo chatter */
 .description{
   font-family: georgia, serif;
@@ -125,6 +129,7 @@ p {
     text-align: center;
 }
 
+/*unordered list of climate facts*/
 li{
   font-family: Georgia, sans-serif;
   line-height: 180%;

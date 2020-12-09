@@ -1,0 +1,8 @@
+/*hero container area*/
+.hero-container{
+  position:relative;
+}
+
+.hero-image{
+  width: 100%;
+}
