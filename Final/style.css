@@ -85,19 +85,19 @@ background-color: fff;
 }
 /*very small devices media query*/
 @media only screen and (max-width: 480px) {
-  .break {
+  break {
     width: 20%;
     }
-  .pull-q {
+  pull-q {
     font-size: 25px;
   }
-  .chapter-headline {
+  chapter-headline {
     font-size:25px;
   }
   p {
     font-size: 13px;
   }
-  .counter{
+  counter{
     font-size:120px;
     font-weight:500;
 }
