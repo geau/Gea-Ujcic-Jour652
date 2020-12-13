@@ -85,19 +85,19 @@ background-color: fff;
 }
 /*very small devices media query*/
 @media only screen and (max-width: 480px) {
-  .break img {
+  .break {
     width: 12%;
     }
-  .pull-q span {
+  .pull-q {
     font-size: 15px;
   }
-  .chapter-headline span {
+  .chapter-headline {
     font-size:15px;
   }
   p {
     font-size: 10px;
   }
-  .counter div {
+  .counter {
     font-size: 80px;
     font-weight:500;
 }
@@ -107,19 +107,19 @@ background-color: fff;
 
 /* small devices media query*/
 @media only screen and (max-width: 768px) {
-  .break img{
+  .break {
     width: 20%;
     }
-  .pull-q span{
+  .pull-q {
     font-size: 25px;
   }
-  .chapter-headline span{
+  .chapter-headline {
     font-size:25px;
   }
   p {
     font-size: 15px;
   }
-  .counter div {
+  .counter {
     font-size:125px;
     font-weight:500;
 }
