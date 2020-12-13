@@ -20,18 +20,17 @@
   font-size:45px;
   font-weight:400;
   text-align: left;
-  color:#D62503;
   text-transform: lowercase;
   font-family: Georgia, sans-serif;
   width: 82%;
 }
 
 .byline{
-  font-size:10px;
+  font-size:12px;
   font-weight:400;
   text-align: center;
   color: inherit;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-family: 'Zilla Slab', sans-serif;
 }
 
@@ -47,7 +46,6 @@
   text-align: center;
   font-family: Georgia, sans-serif;
   padding-bottom: 0;
-  color:#D62503;
 }
 
 /* text */
@@ -63,14 +61,45 @@ p {
   font-size:55px;
   font-weight:400;
   text-align: left;
-  color:#D62503;
   text-transform: lowercase;
   font-family: Georgia, sans-serif;
   width: 82%;
+  color:#D62503;
 
 }
 
 .basic-photo{
-    width: 75%;
+width: 75%;
 
 }
+
+.break{
+  width: 60%;
+}
+
+.button{
+font-family:'Zilla Slab', sans-serif;
+font-size:17px;
+text-align: left;
+background-color: fff;
+}
+
+#DivShow{
+  padding-top: 5px;
+  margin-top: 0;
+}
+
+potential yellow#F6BA06
+warm red color:#D62503;
+cardbox #D9A036
+<button id="DivHide">i'm done exploring hate crimes per state in 2019</button>
+
+<div id="MyDiv"style="display:none;">
+  <iframe title="Hate Crime Incidents per State in 2019" aria-label="Map" id="datawrapper-chart-x7Vs4" src="https://datawrapper.dwcdn.net/x7Vs4/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="564"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+  </script>
+  <button id="DivHide">i'm done exploring hate crimes per state in 2019</button>
+</div>
+<br>
+<button id="DivShow">dicover more about hate crimes in the us in 2019</button>
+
+<!--hate crimes map-->

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("input").select(function(){
+    $("input").after(" Text marked!");
+  });
+  $("button").click(function(){
+    $("input").trigger("select");
+  });
+});
+</script>
+<!--jQuery-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" ></script>
+
+<script>
+$(document) .ready(function() {
+  $("#DivShow").click(function() {
+    $("#MyDiv").css("display","block");
+  });
+  $("#DivHide").click(function() {
+    $("#MyDiv").css("display","none");
+});
+  });
+</script>
+
+<!--test-->
+<script>
+  $("button").click(function(){
+    $("input").trigger("select");
+  });
+});
+</script>
+</head>
+<body>
+
+<input type="text" value="Hello World"><br><br>
+
+<button>Trigger the select event for the input field</button>
+<!--counter-->
+<div class="container counter-section">
+  <div class="row text-center">
+    <div class="col-md-12">
+      <p class="counter"> 4081 </p>
+      <p> Number of Hate Crimes in the US in 2019 </p>
+    </div>
+  </div>
+</div>
+<!--counter-->
+<script src="jquery.counterup.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script>
+jQuery(document).ready(function( $ )
+{
+$('.counter').counterUp({
+    delay: 10,
+    time: 1000
+});
+});
+</script>
+<!--end counter-->
+
+</body>
+</html>

@@ -23,7 +23,24 @@
 <!--jQuery-->
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" ></script>
 
+<script>
+$(document) .ready(function() {
+  $("#DivShow").click(function() {
+    $("#MyDiv").css("display","block");
+  });
+  $("#DivHide").click(function() {
+    $("#MyDiv").css("display","none");
+});
+  });
+</script>
 
+<!--test-->
+<script>
+  $('button').click(function(){
+    $('counter').trigger("click");
+  });
+});
+</script>
 
 </head>
 <body>
@@ -51,7 +68,7 @@
       <br>
       <br>
 
-<span class="chapter-headline"> The company gives extremists and neo-Nazis banned from other platforms unprecedented access to a mainstream audience — and even promotes their books. </span>
+<span class="chapter-headline"> The company gives extremists and neo-Nazis <br> banned from other platforms unprecedented access<br> to a mainstream audience — and even promotes their books. </span>
 
 <br>
 <br>
@@ -69,8 +86,26 @@
 
 <p>They were basically right. It takes just a couple of minutes to upload one’s work to Kindle Direct Publishing (KDP), Amazon’s self-publishing arm; the ebook then shows up in the world’s largest bookstore within half a day, typically with minimal oversight. Since its founding more than a decade ago, KDP has democratized the publishing industry and earned praise for giving authors shut out of traditional channels the chance to reach an audience that would have been previously unimaginable.</p>
 
+
 <p>It has also afforded the same opportunity to white supremacists and neo-Nazis, an investigation by ProPublica and The Atlantic has found. Releases include Anschluss: The Politics of Vesica Piscis, a polemic that praises the “grossly underappreciated” massacre of 77 people by the Norwegian neo-Nazi Anders Breivik in 2011, and The White Rabbit Handbook, a manifesto linked to an Illinois-based militia group facing federal hate-crime charges for firebombing a mosque. (Amazon removed the latter last week following questions from ProPublica).
  </p>
+
+ <!--first section break here-->
+ <div class="container">
+   <div class="row">
+     <div class="col-md-5">
+     </div>
+ <div class="col-md-2">
+
+ <img src="smallbox.png" class="break">
+
+
+ </div>
+
+ <div class="col-md-5">
+ </div>
+</div>
+  <!-- end first section break here-->
 
 <p>
 About 200 of the 1,500 books recommended by the Colchester Collection, an online reading room run by and for white nationalists, were self-published through Amazon. And new KDP acolytes are born every day: Members of fringe groups on 4chan, Discord, and Telegram regularly tout the platform’s convenience, according to our analysis of thousands of conversations on those message boards. There are “literally zero hoops,” one user in 4chan’s /pol/ forum told another in 2015. “Just sign up for Kindle Direct Publishing and publish away. It’s shocking how simple it is, actually.” Even Breivik, at the start of the 1,500-page manifesto that accompanied his terrorist attack, suggested that his followers use KDP’s paperback service, among others, to publicize his message.
@@ -99,23 +134,15 @@ That these books are widely available on Amazon does not seem to be an accident,
 The growing influence of social networks on political life has prompted a national debate about what should stay up on these platforms, what should come down, who’s to blame, and who decides. Following the deadly far-right violence in Charlottesville, Virginia, in 2017, Facebook, Twitter, Reddit, and PayPal cracked down on the activities of white supremacists and hate groups on their platforms.
 </p>
 </div>
-<div class="container">
-  <div class="row">
-    <div class="col-md-1">
-    </div>
-<div class="col-md-10">
 
-  <img src="chv.jfif" class="hero-image">
+<img src="chv1.png" class="hero-image">
 
-
-</div>
-
-<div class="col-md-1">
-</div>
 
 <div class="container">
-  <span class="byline"> Descriptive chatter </span>
-
+  <span class="byline"> The Unite the Right rally was a white supremacist rally that took place in Charlottesville, Virginia, from August 11 to 12, 2017. Protesters included members of the far-right and included self-identified members of the alt-right, neo-Confederates, neo-fascists, white nationalists, neo-Nazis, Klansmen, and various right-wing militias.
+On August 12, James Alex Fields Jr. deliberately drove his car into a crowd of people who had been peacefully protesting the Unite the Right rally killing one and injuring 19. </span>
+<br>
+<br>
 
 
 <!--david duke-->
@@ -135,7 +162,7 @@ The southern poverty law center calls Billy Roper “the uncensored voice of vio
     </div>
 <div class="col-md-8">
 
-<img src="Roper1.jpg" class="basic-photo">
+<img src="Roper2.png" class="basic-photo">
 
 
 </div>
@@ -170,7 +197,7 @@ Roper is also a prolific author. Since 2014, he has uploaded 17 books of fiction
   <div class="row text-center">
     <div class="col-md-12">
       <p class="counter"> 4081 </p>
-      <p> Number of Hate Crimes in the US in 2019 </p>
+      <p class="chapter-headline"> Number of Hate Crimes in the US in 2019. </p>
     </div>
   </div>
 </div>
@@ -187,6 +214,15 @@ $('.counter').counterUp({
 });
 </script>
 <!--end counter-->
+
+
+<div id="MyDiv"style="display:none;">
+  <iframe title="Hate Crime Incidents per State in 2019" aria-label="Map" id="datawrapper-chart-x7Vs4" src="https://datawrapper.dwcdn.net/x7Vs4/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="564"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+  </script>
+  <button id="DivHide">i'm done exploring hate crimes per state in 2019</button>
+</div>
+<br>
+<button id="DivShow">dicover more about hate crimes in the us in 2019</button>
 
   <p>
  “If your cousin showed up with his Mexican girlfriend and their half-Mexican kids in the middle of a race war and wanted refuge, that could put you automatically on a whole different side,” he writes, advising that “the best way to accomplish discrimination is through prejudice, beforehand. Be prejudiced, and discriminate.”
@@ -215,13 +251,15 @@ KDP has also revived an older white-nationalist canon. Many works by historical 
 <p>
 Though books now compete with viral videos, memes, and podcasts in the rapidly expanding universe of white-nationalist cultural production, they still play an important role. Roper himself was inspired by The Turner Diaries, which depicts in gruesome detail the genocide of nonwhite people across the world. It was published in 1978 under a pseudonym by William Pierce, the founder of the National Alliance, then regarded as the most dangerous neo-Nazi group in the U.S. As of early April, it still ranked among the top 65,000 books sold on Amazon.
 </p>
+</div>
+
 <div class="container">
   <div class="row">
     <div class="col-md-5">
     </div>
 <div class="col-md-2">
 
-<img src="break.png">
+<img src="smallbox.png" class="break">
 
 
 </div>
@@ -233,6 +271,11 @@ Though books now compete with viral videos, memes, and podcasts in the rapidly e
 <p>
 Jeff bezos founded amazon with the dream of selling people whatever they wanted, when they wanted it. This wasn’t yet possible in 1994. So he started out with books, according to Brad Stone’s 2013 history of Amazon, The Everything Store. Bezos is an avid reader, especially of science fiction, but his decision was driven less by literary passion than by business acumen.
 </p>
+<!--amazon stock value chart-->
+<p class="chapter-headline"> amazon's stock value from 1997 onward. </p>
+<iframe title="Amazon's stock value from 1997-2020" aria-label="Interactive line chart" id="datawrapper-chart-xrTm7" src="https://datawrapper.dwcdn.net/xrTm7/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="600"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+</script>
+<!--chart end-->
 <p>
  Books were easy to ship yet endlessly variable. “If [Bezos] couldn’t build a true everything store right away,” Stone wrote, “he could capture its essence—unlimited selection—in at least one important product category.”
 </p>
@@ -242,19 +285,10 @@ From the start, Bezos was determined that nothing should interfere with the comp
 <p>
 “We want to make every book available—the good, the bad, and the ugly,” Bezos explained in a 1998 speech. “And when you’re doing that, you actually have an obligation—if you’re going to make the shopping environment actually conducive to shopping—to sort of let truth loose.”
 </p>
-<div class="container">
-  <div class="row">
-
-
-<div class="col-md-8">
-
-<img src="jb.jpg">
-
-
 </div>
 
-<div class="col-md-4">
-</div>
+<img src="jb1.png" class="hero-image">
+
 
 <div class="container">
   <span class="byline"> Descriptive chatter </span>
@@ -305,14 +339,31 @@ Authors uploading paperbacks are asked to self-report whether their content is �
 Amazon describes kdp as a printing service, not a publisher or social network. But Amazon’s role is by no means passive. Its recommendation algorithm uses your purchasing, browsing, and reading histories to steer you to the books you are most likely to buy, as opposed to what critics have championed or what publishers think you should read.
 </p>
 <p>
- “It actually drives me crazy when I hear Amazon’s rhetoric about getting rid of the gatekeepers, because all they’ve done is replace 1,000 small gatekeepers with one big gatekeeper,” says Shel Kaphan, who helped found Amazon and later served as its chief technology officer until 1999. “They use different criteria, but it’s no more noble than other people’s criteria. In a lot of ways, I’d prefer editorial decisions over a strategy of ‘What makes me the most money today?’” Alex Merto
+ “It actually drives me crazy when I hear Amazon’s rhetoric about getting rid of the gatekeepers, because all they’ve done is replace 1,000 small gatekeepers with one big gatekeeper,” says Shel Kaphan, who helped found Amazon and later served as its chief technology officer until 1999. “They use different criteria, but it’s no more noble than other people’s criteria. In a lot of ways, I’d prefer editorial decisions over a strategy of ‘What makes me the most money today?’” Alex Merto.
 </p>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-2">
+    </div>
+<div class="col-md-8">
+
+<img src="shel.png" class="basic-photo">
+
+
+</div>
+
+<div class="col-md-2">
+</div>
+<div class="container">
+  <span class="byline"> </span>
 <p>
 When we tested the recommendations for several of the books discussed in far-right chat rooms, we found that many of Amazon’s suggestions reinforced and amplified the given book’s political ideology. For instance, the first six recommendations for Fascism for the Million—and the subsequent associated recommendations —consist exclusively of defenses of fascism, even for users for whom Amazon has stored no browsing history. (The book, inspired by the remarks of Oswald Mosley, the leader of the British Union of Fascists, was published by a far-right press last year.) What’s more, we found that recommendations for far-right books often overlap with and refer back to one another, creating a sort of echo chamber.
 </p>
 <p>
 Curious readers can easily click through several different clusters of books espousing anti-Semitism, nativism, Nazism, and white nationalism without encountering a text from an opposing point of view. The search algorithm also groups radical texts together. If shoppers search for the white-nationalist cult classic Siege, by James Mason, the third and fourth results shown are for works by Julius Evola, the far-right Italian ideologue cited in a 2014 lecture by Steve Bannon.
 </p>
+</div>
 <!--Global Project Against Hate and Extremism-->
 <div class="container">
   <div class="row">
@@ -320,7 +371,7 @@ Curious readers can easily click through several different clusters of books esp
     </div>
 <div class="col-md-2">
 
-<img src="break.png">
+<img src="smallbox.png" class="break">
 
 
 </div>
@@ -377,6 +428,23 @@ Amazon’s ambiguous guidelines are not without reason. Given the company’s pr
 <p>
 Hate speech is also notoriously difficult to define. “There’s still nothing like consensus about what extremism even is in general, let alone when you get down to what’s considered to be a controversial and difficult decision about the whole of a book,” Berger says. “Even I, who’ve studied elements of this, would be hesitant to say that there’s any easy recipe to decide what stays and what goes.”
 </p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-5">
+    </div>
+<div class="col-md-2">
+
+<img src="smallbox.png" class="break">
+
+
+</div>
+
+<div class="col-md-5">
+</div>
+
+<div class="container">
 <p>
 Smaller self-publishing companies say they have taken a more proactive stance. Lulu, Smashwords, and Kobo all explicitly prohibit authors from self-publishing discriminatory or hateful content through their platforms. Representatives from each company spoke with us about navigating the tension between free expression and fomenting hate. “We don’t enjoy acting as a gatekeeper,” Mark Coker, the Smashwords founder and CEO, said. “We don’t enjoy serving as arbiter of what’s acceptable and what’s not. But it’s a responsibility we have to take on.”
 </p>
@@ -391,20 +459,38 @@ In the past two weeks, as more Americans have sheltered in place to reduce the s
 </p>
 
 
-<!--hate crimes map-->
 
-<div class="container">
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-2">
-    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-    <div class="col-md-8">
-<iframe title="Hate Crime Incidents per State in 2019" aria-label="Map" id="datawrapper-chart-x7Vs4" src="https://datawrapper.dwcdn.net/x7Vs4/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="564"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-</script>
-  </div>
-  <!--map end-->
+
+
+
+
+
 
   <div class="col-md-2">
   </div>
@@ -431,36 +517,9 @@ In the past two weeks, as more Americans have sheltered in place to reduce the s
 </div>
 </div>
 <br>
-<span class="chapter-headline"> headline sample. </span>
-<br>
-
-</div>
-
-  <img src="duke.jpg" class="hero-image">
-<br>
-<br>
-
-<div class="container">
-
-  
-
-<div class="container">
-  <div class="row">
-    <div class="col-md-2">
-    </div>
-<div class="col-md-8">
-
-<!--amazon stock value chart-->
-<iframe title="Amazon's stock value from 1997-2020" aria-label="Interactive line chart" id="datawrapper-chart-xrTm7" src="https://datawrapper.dwcdn.net/xrTm7/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="600"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-</script>
-<!--chart end-->
-</div>
-
-<div class="col-md-2">
-</div>
 
 
-</div>
+
 </div>
 
 </div>
