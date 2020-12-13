@@ -85,19 +85,19 @@ background-color: fff;
 }
 /*very small devices media query*/
 @media only screen and (max-width: 480px) {
-  break {
+  .break img {
     width: 20%;
     }
-  pull-q {
+  .pull-q span {
     font-size: 25px;
   }
-  chapter-headline {
+  .chapter-headline span {
     font-size:25px;
   }
   p {
     font-size: 13px;
   }
-  counter{
+  .counter div {
     font-size:120px;
     font-weight:500;
 }
@@ -107,19 +107,19 @@ background-color: fff;
 
 /* small devices media query*/
 @media only screen and (max-width: 768px) {
-  .break {
+  .break img{
     width: 30%;
     }
-  .pull-q {
+  .pull-q span{
     font-size: 25px;
   }
-  .chapter-headline {
+  .chapter-headline span{
     font-size:25px;
   }
   p {
     font-size: 15px;
   }
-  .counter{
+  .counter div {
     font-size:125px;
     font-weight:500;
 }
