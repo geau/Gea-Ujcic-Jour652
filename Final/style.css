@@ -36,7 +36,7 @@
 
 
 .counter-section{
-  margin: 10% auto;
+  margin: 5% auto;
   color: inherit;
 }
 
@@ -83,11 +83,52 @@ font-size:17px;
 text-align: left;
 background-color: fff;
 }
-
-#DivShow{
-  padding-top: 5px;
-  margin-top: 0;
+/*very small devices media query*/
+@media only screen and (max-width: 480px) {
+  .break {
+    width: 20%;
+    }
+  .pull-q {
+    font-size: 25px;
+  }
+  .chapter-headline {
+    font-size:25px;
+  }
+  p {
+    font-size: 13px;
+  }
+  .counter{
+    font-size:120px;
+    font-weight:500;
 }
+
+}
+/*very small devices media query-end*/
+
+/* small devices media query*/
+@media only screen and (max-width: 768px) {
+  .break {
+    width: 30%;
+    }
+  .pull-q {
+    font-size: 25px;
+  }
+  .chapter-headline {
+    font-size:25px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .counter{
+    font-size:125px;
+    font-weight:500;
+}
+}
+/*small devices media query-end*/
+
+
+
+
 
 potential yellow#F6BA06
 warm red color:#D62503;
