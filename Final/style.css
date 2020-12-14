@@ -31,8 +31,11 @@
   text-align: center;
   color: inherit;
   text-transform: lowercase;
-  font-family: 'Zilla Slab', sans-serif;
-  line-height: 0.5;
+  font-family: georgia, serif;
+    font-size: 13px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-style: italic;
   width: 50%;
 }
 /*counter*/
