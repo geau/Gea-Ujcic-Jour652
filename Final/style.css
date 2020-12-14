@@ -31,7 +31,6 @@
   text-align: center;
   text-transform: lowercase;
   font-family: georgia, serif;
-  font-size: 13px;
   margin-top: 7px;
   margin-bottom: 7px;
   font-style: italic;
@@ -150,7 +149,7 @@ width: 75%;
 
   .byline {
     font-size: 10px;
-    line-height: 0.2px;
+    line-height: 0.5;
   }
 }
 
