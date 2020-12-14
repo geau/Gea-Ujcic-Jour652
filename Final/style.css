@@ -85,8 +85,10 @@ width: 75%;
   font-weight:400;
   text-transform: lowercase;
   font-family: Georgia, sans-serif;
-
-}
+  background-color:black;
+  color: #fff;
+  }
+  
 .card-body{
   background-color: #fff;
   border-left: 1px solid;
