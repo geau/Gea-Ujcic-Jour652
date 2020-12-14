@@ -17,12 +17,12 @@
 /*chap head*/
 
 .chapter-headline{
-  font-size: 55px;
+  font-size: 50px;
   font-weight:400;
   text-align: left;
   text-transform: lowercase;
   font-family: Georgia, sans-serif;
-  width: 82%;
+  width: 70%;
 }
 /*byline, descriptive chatter*/
 .byline{
@@ -32,6 +32,8 @@
   color: inherit;
   text-transform: lowercase;
   font-family: 'Zilla Slab', sans-serif;
+  line-height: 0.5;
+  width: 50%;
 }
 /*counter*/
 
@@ -109,9 +111,9 @@ width: 75%;
 /*copyright*/
 .end{
   font-family:'Zilla Slab', sans-serif;
-  font-size: 0.5em;
+  font-size:12px;
   font-weight:400;
-  text-align: right;
+  text-align: center;
   text-transform:lowercase;
 }
 
@@ -137,6 +139,11 @@ width: 75%;
   .nav-logo{
     font-size: 15px;
     }
+  .byline{
+    font-size: 10px;
+    line-height: 0.2px;
+  }
+}
 
 /*very small devices media query-end*/
 
@@ -158,6 +165,11 @@ width: 75%;
     font-size:125px;
     font-weight:500;
 }
+.byline{
+  font-size: 8px;
+  line-height: 0.5;
+}
+
 }
 /*small devices media query-end*/
 
