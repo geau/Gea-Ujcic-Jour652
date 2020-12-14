@@ -29,13 +29,12 @@
   font-size:12px;
   font-weight:400;
   text-align: center;
-  color: inherit;
   text-transform: lowercase;
   font-family: georgia, serif;
-    font-size: 13px;
-    margin-top: 7px;
-    margin-bottom: 7px;
-    font-style: italic;
+  font-size: 13px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-style: italic;
   width: 50%;
 }
 /*counter*/
