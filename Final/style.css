@@ -1,5 +1,5 @@
 /*nav style*/
-.nav-logo{
+.nav-logo {
   margin: 0 auto;
   font-weight: 500;
   color:#inherit;
@@ -7,16 +7,16 @@
 }
 
 /*hero container area*/
-.hero-container{
+.hero-container {
   position:relative;
 }
 
-.hero-image{
+.hero-image {
   width: 100%;
 }
 /*chap head*/
 
-.chapter-headline{
+.chapter-headline {
   font-size: 50px;
   font-weight:400;
   text-align: left;
@@ -25,7 +25,7 @@
   width: 70%;
 }
 /*byline, descriptive chatter*/
-.byline{
+.byline {
   font-size:12px;
   font-weight:400;
   text-align: center;
@@ -37,12 +37,12 @@
 }
 /*counter*/
 
-.counter-section{
+.counter-section {
   margin: 5% auto;
   color: inherit;
 }
 
-.counter{
+.counter {
   font-size:230px;
   font-weight:500;
   text-align: center;
@@ -59,7 +59,7 @@ p {
   width: 82%;
 }
 /*pull quote*/
-.pull-q{
+.pull-q {
   font-size:55px;
   font-weight:400;
   text-align: left;
@@ -70,17 +70,17 @@ p {
 
 }
 /*non end to end photo*/
-.basic-photo{
+.basic-photo {
 width: 75%;
 
 }
 /*small break boxes*/
-.break{
+.break {
   width: 60%;
 }
 
 /*card design*/
-.card-header{
+.card-header {
   text-align: center;
   text-transform: lowercase;
   font-size: 25px;
@@ -91,7 +91,7 @@ width: 75%;
   color: #fff;
   }
 
-.card-body{
+.card-body {
   background-color: #fff;
   border-left: 1px solid;
   border-right: 1px solid ;
@@ -99,7 +99,7 @@ width: 75%;
   padding-bottom: 3em;
   margin-bottom: 0 auto;
 }
-.card-intro{
+.card-intro {
   font-family: 'Zilla Slab', serif;
   line-height: 180%;
   font-size:17px;
@@ -109,7 +109,7 @@ width: 75%;
 
 
 /*copyright*/
-.end{
+.end {
   font-family:'Zilla Slab', sans-serif;
   font-size:12px;
   font-weight:400;
@@ -119,27 +119,34 @@ width: 75%;
 
 /*very small devices media query*/
 @media only screen and (max-width: 480px) {
+
   .break {
     width: 12%;
     }
+
   .pull-q {
     font-size: 15px;
   }
+
   .chapter-headline {
     font-size:15px;
   }
+
   p {
     font-size: 10px;
   }
+
   .counter {
-    font-size: 75;
+    font-size: 75px;
     font-weight:500;
   }
 
-  .nav-logo{
+
+  .nav-logo {
     font-size: 15px;
     }
-  .byline{
+
+  .byline {
     font-size: 10px;
     line-height: 0.2px;
   }
@@ -151,20 +158,24 @@ width: 75%;
 @media only screen and (max-width: 768px) {
   .break {
     width: 20%;
-    }
+  }
+
   .pull-q {
     font-size: 25px;
   }
+
   .chapter-headline {
     font-size:25px;
   }
   p {
     font-size: 15px;
   }
+
   .counter {
-    font-size:125px;
+    font-size:90px;
     font-weight:500;
 }
+
 .byline{
   font-size: 8px;
   line-height: 0.5;
@@ -172,55 +183,3 @@ width: 75%;
 
 }
 /*small devices media query-end*/
-
-
-
-
-
-potential yellow#F6BA06
-warm red color:#D62503;
-cardbox #D9A036
-<button id="DivHide">i'm done exploring hate crimes per state in 2019</button>
-
-<div id="MyDiv"style="display:none;">
-  <iframe title="Hate Crime Incidents per State in 2019" aria-label="Map" id="datawrapper-chart-x7Vs4" src="https://datawrapper.dwcdn.net/x7Vs4/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="564"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-  </script>
-  <button id="DivHide">i'm done exploring hate crimes per state in 2019</button>
-</div>
-<br>
-<button id="DivShow">dicover more about hate crimes in the us in 2019</button>
-
-<!--hate crimes map-->
-
-<!--counter-->
-<div class="container counter-section">
-  <div class="row text-center">
-    <div class="col-md-12">
-      <p class="counter"> 4081</p>
-      <p class="chapter-headline"> number of hate crimes in the us in 2019. </p>
-    </div>
-  </div>
-</div>
-<!--counter-->
-<script src="jquery.counterup.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-<script>
-jQuery(document).ready(function( $ )
-{
-$('.counter').counterUp({
-    delay: 40,
-    time: 1000,
-});
-});
-</script>
-<!--end counter-->
-
-<!--interactive element button revelas map 2019-->
-<div id="MyDiv"style="display:none;">
-  <iframe title="Hate Crime Incidents per State in 2019" aria-label="Map" id="datawrapper-chart-x7Vs4" src="https://datawrapper.dwcdn.net/x7Vs4/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="564"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-  </script>
-  <button id="DivHide" button type="button" class="btn btn-outline-dark">i'm done exploring </button>
-</div>
-<br>
-<button id="DivShow" button type="button" class="btn btn-outline-dark">dicover more about hate crimes in the us in 2019</button>
-<!--interactive element button revelas map 2019-end code-->
