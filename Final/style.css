@@ -17,14 +17,14 @@
 /*chap head*/
 
 .chapter-headline{
-  font-size:45px;
+  font-size: 55px;
   font-weight:400;
   text-align: left;
   text-transform: lowercase;
   font-family: Georgia, sans-serif;
   width: 82%;
 }
-
+/*byline, descriptive chatter*/
 .byline{
   font-size:12px;
   font-weight:400;
@@ -33,7 +33,7 @@
   text-transform: lowercase;
   font-family: 'Zilla Slab', sans-serif;
 }
-
+/*counter*/
 
 .counter-section{
   margin: 5% auto;
@@ -56,7 +56,7 @@ p {
   text-align: left;
   width: 82%;
 }
-
+/*pull quote*/
 .pull-q{
   font-size:55px;
   font-weight:400;
@@ -67,22 +67,48 @@ p {
   color:#D62503;
 
 }
-
+/*non end to end photo*/
 .basic-photo{
 width: 75%;
 
 }
-
+/*small break boxes*/
 .break{
   width: 60%;
 }
 
-.button{
-font-family:'Zilla Slab', sans-serif;
-font-size:17px;
-text-align: left;
-background-color: fff;
+/*card design*/
+.card-header{
+  font-size:22px;
+  font-family:'Zilla Slab', serif;
+  text-align: center;
 }
+.card-body{
+  background-color: #fff;
+  border-left: 1px solid;
+  border-right: 1px solid ;
+  border-bottom: 1px solid;
+  padding-bottom: 3em;
+  margin-bottom: 0 auto;
+}
+.card-intro{
+  font-family: 'Zilla Slab', serif;
+  line-height: 180%;
+  font-size:17px;
+  text-align: left;
+  width: 82%;
+}
+
+
+/*copyright*/
+.end{
+  font-family:'Zilla Slab', sans-serif;
+  font-size: 0.5em;
+  font-weight:400;
+  text-align: right;
+  text-transform:lowercase;
+}
+
 /*very small devices media query*/
 @media only screen and (max-width: 480px) {
   .break {
@@ -144,3 +170,36 @@ cardbox #D9A036
 <button id="DivShow">dicover more about hate crimes in the us in 2019</button>
 
 <!--hate crimes map-->
+
+<!--counter-->
+<div class="container counter-section">
+  <div class="row text-center">
+    <div class="col-md-12">
+      <p class="counter"> 4081</p>
+      <p class="chapter-headline"> number of hate crimes in the us in 2019. </p>
+    </div>
+  </div>
+</div>
+<!--counter-->
+<script src="jquery.counterup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script>
+jQuery(document).ready(function( $ )
+{
+$('.counter').counterUp({
+    delay: 40,
+    time: 1000,
+});
+});
+</script>
+<!--end counter-->
+
+<!--interactive element button revelas map 2019-->
+<div id="MyDiv"style="display:none;">
+  <iframe title="Hate Crime Incidents per State in 2019" aria-label="Map" id="datawrapper-chart-x7Vs4" src="https://datawrapper.dwcdn.net/x7Vs4/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="564"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+  </script>
+  <button id="DivHide" button type="button" class="btn btn-outline-dark">i'm done exploring </button>
+</div>
+<br>
+<button id="DivShow" button type="button" class="btn btn-outline-dark">dicover more about hate crimes in the us in 2019</button>
+<!--interactive element button revelas map 2019-end code-->
